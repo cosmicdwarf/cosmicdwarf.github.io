@@ -14,23 +14,24 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="../javascript/script.js"></script>
     <link rel="stylesheet" href="../build/css/intlTelInput.css">
+    <link rel="stylesheet" href="../css/navbar.css">
 </head>
 <body>
 	<nav>
 		<input type="checkbox" class="checkbtn" id="check">
-		<label for="check" class="checkbtn">
-			<i class="fas fa-bars"></i>
-		</label>
+		<label class="checkbtn" id="nav-icon" for="check">
+            <span></span><span></span><span></span><span></span>
+        </label>
 		<a href="contact.html"><label class="logo">ᑢᕲ</label></a>
 		<ul class="row d-flex justify-content-end" id="navul">
 			<li class="col-12 col-lg-2" id="navli"><a href="../index.html">Home</a></li>
 			<li class="col-12 col-lg-2" id="navli"><a href="about.html">About</a></li>
-			<li class="col-12 col-lg-3" id="navli"><a href="contact.html">Contact us</a></li>
+			<li class="col-12 col-lg-3" id="navli"><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
 
 	<div class="container">
-		<h1 id="greetcont">Hey, there</h1>
+		<h1 id="greetcont"></h1>
 	</div>
 
 	<div class="container">
@@ -103,6 +104,11 @@
         window.intlTelInput(input, {
         utilsScript: "build/js/utils.js",
         });
+        $(document).ready(function(){
+    		$('#nav-icon').click(function(){
+        		$(this).toggleClass('open');
+    		});
+		});
     </script>
 
 </body>
