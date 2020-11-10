@@ -35,7 +35,7 @@ a{
 	transition: font-size .2s;
 }
 .checkbtn{
-	font-size: 30px;
+	font-size: 25px;
 	color: white;
 	float: right;
 	padding-top: 7px;
@@ -228,7 +228,7 @@ address{
 }
 #copyright{
 	padding-top: 10px;
-	font-family: OpenSans,Arial,sans-serif;
+	font-family: OpenSans, Arial, sans-serif;
 }
 
 
@@ -240,7 +240,7 @@ address{
 /*---------------Nav Bar--------------*/
 
 	label.logo{
-		font-size: 30px;
+		font-size: 25px;
 		padding-top: 8px;
 		padding-left: 20px;
 	}
@@ -254,7 +254,7 @@ address{
 		position: fixed;
 		width: 110%;
 		background: rgba(44, 62, 80, 0.9);
-		top: 60px;
+		top: 52px;
 		left: 104%;
 		float: left;
 		transition: all .5s;
@@ -290,6 +290,8 @@ address{
 		padding-bottom: 20px;
 	}
 }
+
+
 @media screen and (max-width: 432px){
 	.btn{
 		margin-top: 30px;
@@ -320,6 +322,8 @@ address{
 		max-width: 340px;
 	}
 }
+
+
 @media screen and (max-width: 359px){
 	#submitname{
 		margin-top: 20px;
