@@ -12,25 +12,26 @@
 	<script src="https://kit.fontawesome.com/b7101c3f11.js" crossorigin="anonymous"></script>
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="css/navbar.css">
 </head>
 <body>
 	<nav>
 		<input type="checkbox" class="checkbtn" id="check">
-		<label for="check" class="checkbtn">
-			<i class="fas fa-bars"></i>
-		</label>
+		<label class="checkbtn" id="nav-icon" for="check">
+            <span></span><span></span><span></span><span></span>
+        </label>
 		<a href="index.html"><label class="logo">ᑢᕲ</label></a>
-		<ul class="row d-flex justify-content-end">
+		<ul class="row d-flex justify-content-end">			
 			<li class="col-12 col-lg-2"><a href="index.html">Home</a></li>
 			<li class="col-12 col-lg-2"><a href="html/about.html">About</a></li>
-			<li class="col-12 col-lg-3"><a href="html/contact.html">Contact us</a></li>
+			<li class="col-12 col-lg-3"><a href="html/contact.html">Contact</a></li>
 		</ul>
 	</nav>
 	<div class="container">
 		<div class="row" id="div1">
 			<div class="col-12 col-lg-6">
 				<div class="d-flex justify-content-center">
-					<img id="myimg" data-aos="zoom-in" src="../images/img.jpg" alt="My Image">
+					<img id="myimg" data-aos="zoom-in" src="images/img.jpg" alt="My Image">
 				</div>
 			</div>
 			<div class="col-12 col-lg-6" id="header">
@@ -83,6 +84,11 @@
   			AOS.init({
   			duration: 2000,
   			});
+		});
+		$(document).ready(function(){
+    		$('#nav-icon').click(function(){
+        		$(this).toggleClass('open');
+    		});
 		});
 	</script>
 </body>
