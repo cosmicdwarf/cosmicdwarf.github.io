@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title> Ghritak Jyoti Kalita</title>
-	<link rel="icon" href="../images/PicsArt.png" type="image/x-icon">
+	<link rel="icon" href="../images/icon.png" type="image/x-icon">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/contact.css">
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -17,12 +17,11 @@
     <link rel="stylesheet" href="../css/navbar.css">
 </head>
 <body>
-	<nav>
+	<nav data-aos="fade-down">
 		<input type="checkbox" class="checkbtn" id="check">
 		<label class="checkbtn" id="nav-icon" for="check">
             <span></span><span></span><span></span><span></span>
         </label>
-		<a href="contact.html"><label class="logo">ᑢᕲ</label></a>
 		<ul class="row d-flex justify-content-end" id="navul">
 			<li class="col-12 col-lg-2" id="navli"><a href="../index.html">Home</a></li>
 			<li class="col-12 col-lg-2" id="navli"><a href="about.html">About</a></li>
@@ -39,7 +38,7 @@
 			<h1 class="text-white" id="feedheadtext">Send your feedback</h1>
 		</div>
 		<div id="feeddiv" data-aos="flip-down">
-			<textarea class="text-white" id="textarea" rows="8" cols="70" placeholder="  Enter text here..." name="comment" form="usrform"></textarea>
+			<textarea class="text-white" id="textarea" rows="8" cols="70" placeholder="Enter text here..." name="comment" form="usrform"></textarea>
 		</div>
 		<div id="feedform" data-aos="fade-down">
 			<form class="text-white" action="/action_page.php" id="usrform">Name :
@@ -59,15 +58,15 @@
 		</div>
 		<div id="contform">
 			<form name="usrdetail" class="justify-content-center text-white" action="/action_page.php">
-				<input id="firstname" class="text-white" type="text" placeholder=" First Name" name="firstname" data-aos="fade-in">
-				<input id="lastname" class="text-white" type="text" placeholder=" Last Name" name="lastname"
+				<input id="firstname" class="text-white" type="text" placeholder="First Name" name="firstname" data-aos="fade-in">
+				<input id="lastname" class="text-white" type="text" placeholder="Last Name" name="lastname"
 				data-aos="fade-in"><br>
-				<input id="email" class="text-white" type="email" placeholder=" Email" name="email" data-aos="fade-right"><br>
+				<input id="email" class="text-white" type="email" placeholder="Email" name="email" data-aos="fade-right"><br>
 				<label for="phone" id="phonelabel">Phone :</label>
 				<input id="phone" class="text-white" name="phone" type="tel" data-aos="fade-left"><br>
-				<textarea class="text-white" id="messagearea" rows="5" cols="54" name="message" placeholder="  Your message here..." data-aos="zoom-in"></textarea><br>
+				<textarea class="text-white" id="messagearea" rows="5" cols="54" name="message" placeholder="Your message here..." data-aos="zoom-in"></textarea><br>
 				<input id="tndc" type="checkbox" name="tndc"><label style="margin-left: 10px;">I agree to receive mails or calls.</label><br>
-				<button class="btn btn-primary btn-md" id="submitbtn">Submit</button>
+				<button class="btn btn-primary btn-md" id="submitbtn" data-aos="zoom-in-up">Submit</button>
 			</form>
 		</div>
 	</div>
@@ -89,9 +88,9 @@
 			<div class="col-12 col-lg-6">
 				<h2 id="follow">Follow Me On</h2>
 				<div class="d-flex justify-content-center" id="socialdiv">
-					<a href="https://www.linkedin.com/in/ghritak-jyoti-kalita-a1915415a/"><i class="fa fa-linkedin fa-2x" id="social"></i></a>
-					<a href="https://github.com/cosmicdwarf"><i class = "fab fa-github fa-2x" id="social"></i></a>
-					<a href = "https://www.instagram.com/corvus_glaive__/"><i class = "fab fa-instagram fa-2x" id="social"></i></a>
+					<a target="_blank" href="https://www.linkedin.com/in/ghritak-jyoti-kalita-a1915415a/"><i class="fa fa-linkedin fa-2x" id="social"></i></a>
+					<a target="_blank" href="https://github.com/cosmicdwarf"><i class = "fab fa-github fa-2x" id="social"></i></a>
+					<a target="_blank" href = "https://www.instagram.com/corvus_glaive__/"><i class = "fab fa-instagram fa-2x" id="social"></i></a>
 				</div>
 				<p class="d-flex justify-content-center" id="copyright">© 2020 cosmicdwarf</p>
 			</div>
@@ -100,6 +99,11 @@
 
 	<script src="../build/js/intlTelInput.js"></script>
     <script>
+    	$(function() {
+  			AOS.init({
+  			duration: 1000,
+  			});
+		});
         var input = document.querySelector("#phone");
         window.intlTelInput(input, {
         utilsScript: "build/js/utils.js",
