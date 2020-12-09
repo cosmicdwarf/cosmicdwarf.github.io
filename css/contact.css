@@ -8,15 +8,13 @@ body{
 	min-width:60%;
 	font-size: 23px;
 	font-family: 'Dubai light';
-	font-weight: bold;
-	padding-top: 20px;
-	z-index: 2;
+	padding-top: 15px;
 }
 li{
 	color: white;
 }
 label.logo{
-	font-size: 300%;
+	font-size: 250%;
 	font-style: italic;
 	font-weight: bold;
 	color: white;
@@ -28,7 +26,8 @@ nav{
 	background-color: black;
 	position: fixed;
 	width: 100%;
-	z-index: 2;
+	z-index: 1;
+	max-height: 65px;
 }
 a{
 	color: #ffffff;
@@ -42,6 +41,7 @@ a{
 	margin-right: 20px;
 	cursor: pointer;
 	display: none;
+	z-index: 1;
 }
 #check{
 	display: none;
@@ -52,6 +52,7 @@ a{
 #navli{
 	list-style: none;
     float: right;
+	min-height: 40px;
 }
 a:hover{
 	text-decoration: none;
@@ -198,6 +199,7 @@ a:hover{
 }
 #submitbtn{
 	margin: 0px 150px;
+	margin-top: 10px;
 }
 
 
@@ -205,7 +207,7 @@ a:hover{
 
 
 hr{
-	margin-top: 100px;
+	margin-top: 70px;
 	width: 90%;
 	height: 1px;
 	background-image: linear-gradient(to right, rgba(0, 0, 0), rgba(255, 255, 255), rgba(0, 0, 0));
@@ -240,9 +242,7 @@ address{
 /*---------------Nav Bar--------------*/
 
 	label.logo{
-		font-size: 25px;
-		padding-top: 8px;
-		padding-left: 20px;
+		display: none;
 	}
 	nav ul li a{
 		font-size: 24px;
@@ -250,32 +250,34 @@ address{
 	.checkbtn{
 		display: block;
 	}
+	#nav{
+		z-index: 0;
+	}
 	#navul{
 		position: fixed;
 		width: 110%;
-		background: rgba(44, 62, 80, 0.9);
-		top: 52px;
-		left: 104%;
+		background: rgba(0, 0, 0, 0.9);
+		top: -170px;
+		left: 1.5%;
 		float: left;
 		transition: all .5s;
-		padding-bottom: 900px;
+		padding-bottom: 0px;
 		padding-left: 20px;
-		z-index: 2;
+		padding-top: 0px;
+		max-height: 200px;
+		z-index: 0;
 	}
 	#navli{
 		list-style: none;
-		min-height: 67px;
+		min-height: 55px;
 		min-width: 200px;
 	}
-	#navli:hover{
-		font-size: 27px;
-	}
-	a:hover{
+	li.a:hover{
 		text-decoration: none;
 		color: #007bff;
 	}
 	#check:checked ~ ul{
-		left: 1.5%;
+		top: 10px;
 	}
 
 /*------------------Footer--------------------*/
