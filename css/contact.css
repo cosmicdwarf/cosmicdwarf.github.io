@@ -245,7 +245,7 @@ address{
 		display: none;
 	}
 	nav ul li a{
-		font-size: 24px;
+		font-size: 20px;
 	}
 	.checkbtn{
 		display: block;
@@ -269,7 +269,7 @@ address{
 	}
 	#navli{
 		list-style: none;
-		min-height: 55px;
+		min-height: 40px;
 		min-width: 200px;
 	}
 	li.a:hover{
