@@ -7,14 +7,14 @@ body{
 
 ul{
 	float: right;
-	min-width:60%; 
+	min-width:60%;
 	font-size: 23px;
 	font-family: 'Dubai light';
-	font-weight: bold;
-	padding-top: 20px;
+	padding-top: 15px;
+	z-index: 0;
 }
 label.logo{
-	font-size: 300%;
+	font-size: 250%;
 	font-style: italic;
 	font-weight: bold;
 	color: white;
@@ -26,20 +26,21 @@ nav{
 	background-color: black;
 	position: fixed;
 	width: 100%;
-	z-index: 1;
+	z-index: 5;
+	max-height: 65px;
 }
 a{
 	color: #ffffff;
 	transition: font-size .2s;
 }
 .checkbtn{
-	font-size: 25px;
 	color: white;
 	float: right;
 	padding-top: 7px;
 	margin-right: 20px;
 	cursor: pointer;
 	display: none;
+	z-index: 1;
 }
 #check{
 	display: none;
@@ -47,15 +48,18 @@ a{
 li:hover{
 	font-size: 25px;
 }
+ul.li{
+    float: right;
+	min-height: 40px;
+}
 li{
 	list-style: none;
-    float: right;
 }
 a:hover{
 	text-decoration: none;
 	color: #007bff;
+	transition: 0.4s;
 }
-
 /*------------------Carousel-------------------*/
 
 
@@ -99,6 +103,7 @@ h2{
 #cerbox{
 	padding: 30px;
 	margin-top: 20px; 
+	transition: .5s;
 }
 #cerboximg{
 	border-radius: 5px;
@@ -164,9 +169,7 @@ address{
 /*------------------Nav Bar----------------*/
 
 	label.logo{
-		font-size: 25px;
-		padding-top: 8px;
-		padding-left: 20px;
+		display: none;
 	}
 	nav ul li a{
 		font-size: 24px;
@@ -178,30 +181,30 @@ address{
 		z-index: 1;
 	}
 	ul{
-		position: fixed;
+		position: absolute;
 		width: 110%;
-		background: rgba(44, 62, 80, 0.8);
-		top: 52px;
-		left: 104%;
+		background: rgba(0, 0, 0, 0.9);
+		top: -200px;
+		left: 1.5%;
 		float: left;
 		transition: all .5s;
-		padding-bottom: 900px;
+		padding-top: 0px;
+		padding-bottom: 0px;
 		padding-left: 20px;
+		max-height: 200px;
+		z-index: 0;
 	}
 	li{
 		list-style: none;
-		min-height: 67px;
+		min-height: 55px;
 		max-width: 200px;
-	}
-	li:hover{
-		font-size: 27px;
 	}
 	a:hover{
 		text-decoration: none;
 		color: #007bff;
 	}
 	#check:checked ~ ul{
-		left: 1.5%;
+		top: 10px;
 	}
 
 /*------------------Carousel----------------*/
