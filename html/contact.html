@@ -37,10 +37,10 @@
 		<div id="feedhead">
 			<h1 class="text-white" id="feedheadtext">Send your feedback</h1>
 		</div>
-		<div id="feeddiv" data-aos="flip-down">
+		<div id="feeddiv">
 			<textarea class="text-white" id="textarea" rows="8" cols="70" placeholder="Enter text here..." name="comment" form="usrform"></textarea>
 		</div>
-		<div id="feedform" data-aos="fade-down">
+		<div id="feedform">
 			<form class="text-white" action="/action_page.php" id="usrform">Name :
   				<input class="text-white" id="submitname" type="text" placeholder="Your Name" name="usrname">
   				<button class="btn btn-primary btn-sm">Send</button>
@@ -58,15 +58,14 @@
 		</div>
 		<div id="contform">
 			<form name="usrdetail" class="justify-content-center text-white" action="/action_page.php">
-				<input id="firstname" class="text-white" type="text" placeholder="First Name" name="firstname" data-aos="fade-in">
-				<input id="lastname" class="text-white" type="text" placeholder="Last Name" name="lastname"
-				data-aos="fade-in"><br>
-				<input id="email" class="text-white" type="email" placeholder="Email" name="email" data-aos="fade-right"><br>
+				<input id="firstname" class="text-white" type="text" placeholder="First Name" name="firstname">
+				<input id="lastname" class="text-white" type="text" placeholder="Last Name" name="lastname"><br>
+				<input id="email" class="text-white" type="email" placeholder="Email" name="email"><br>
 				<label for="phone" id="phonelabel">Phone :</label>
-				<input id="phone" class="text-white" name="phone" type="tel" data-aos="fade-left"><br>
-				<textarea class="text-white" id="messagearea" rows="5" cols="54" name="message" placeholder="Your message here..." data-aos="zoom-in"></textarea><br>
+				<input id="phone" class="text-white" name="phone" type="tel"><br>
+				<textarea class="text-white" id="messagearea" rows="5" cols="54" name="message" placeholder="Your message here..."></textarea><br>
 				<input id="tndc" type="checkbox" name="tndc"><label style="margin-left: 10px;">I agree to receive mails or calls.</label><br>
-				<button class="btn btn-primary btn-md" id="submitbtn" data-aos="zoom-in-up">Submit</button>
+				<button class="btn btn-primary btn-md" id="submitbtn">Submit</button>
 			</form>
 		</div>
 	</div>
