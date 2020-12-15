@@ -3,6 +3,9 @@ body{
 	/*background: linear-gradient(to right top, #000080 50%, #000000 25%);
   	background: linear-gradient(45deg, #000000, #000080);*/
 }
+.container{
+	overflow-x: hidden
+}
 
 /*---------------Navigation Bar------------------*/
 
