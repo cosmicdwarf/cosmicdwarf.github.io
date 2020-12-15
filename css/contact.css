@@ -1,6 +1,9 @@
 body{
 	background-color: black;
 }
+.container{
+	overflow-x: hidden
+}
 
 /*---------------Navigation Bar------------------*/
 #navul{
