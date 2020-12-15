@@ -1,0 +1,248 @@
+body{
+	background: #000000;
+	/*background: linear-gradient(to right top, #000080 50%, #000000 25%);
+  	background: linear-gradient(60deg, #000080, #000000);*/
+}
+
+/*---------------Navigation Bar------------------*/
+
+ul{
+	float: right;
+	min-width:60%;
+	font-size: 23px;
+	font-family: 'Dubai light';
+	padding-top: 15px;
+	z-index: 0;
+}
+label.logo{
+	font-size: 250%;
+	font-style: italic;
+	font-weight: bold;
+	color: white;
+	margin: auto;
+	padding-left: 30px;
+	padding-bottom: 4px;
+}
+nav{
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+	max-height: 65px;
+}
+a{
+	color: #ffffff;
+	transition: font-size .2s;
+}
+.checkbtn{
+	color: white;
+	float: right;
+	padding-top: 7px;
+	margin-right: 20px;
+	cursor: pointer;
+	display: none;
+	z-index: 1;
+}
+#check{
+	display: none;
+}
+li:hover{
+	font-size: 25px;
+}
+li{
+	list-style: none;
+    float: right;
+	min-height: 40px;
+}
+a:hover{
+	text-decoration: none;
+	color: #007bff;
+	transition: 0.4s;
+}
+
+/*----------------Progress Bar------------------*/
+
+.progress {
+	background: rgba(255,255,255,0.1);
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	padding: 0 5px;
+	display: flex;
+	height: 4px;
+	width: 500px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+  }
+  
+  .progress-value {
+	animation: load 3s normal forwards;
+	box-shadow: 0 10px 40px -10px #fff;
+	background: #007bff;
+	border-radius: 100px;
+	height: 4px;
+	width: 0;
+  }
+  
+  @keyframes load {
+	0% { width: 0; }
+	100% { width: 63%; }
+  }
+
+/*---------------Bio----------------------*/
+
+#heading{
+	text-align: center;
+	padding-top: 120px;
+	color: white;
+}
+#workheading{
+	text-align: center;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 40px;
+	border-bottom: 2px solid currentColor;
+	border-color: #007bff;
+	width: 110%;
+}
+#bio1{
+	color: white;
+}
+.fas, .fab{
+	color: white;
+	transition: 0.5s;
+}
+.fas:hover{
+	color: #007bff;
+	transition: 0.5s;
+	font-size: 5.5em;
+}
+.fab:hover{
+	color: #007bff;
+	transition: 0.5s;
+	font-size: 5.5em;
+}
+#faspan{
+	padding-bottom: 10px;
+}
+#eachbio{
+	margin-top: 50px;
+}
+p.biodetail{
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+.underline{
+	border-bottom: 1px solid currentColor;
+}
+#eachbio{
+	text-align: center;
+	min-height: 180px;
+}
+
+/*-----------------Footer------------------*/
+
+hr{
+	width: 90%;
+	height: 1px;
+	background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0), rgba(255, 255, 255), rgba(0, 0, 0));
+	background-image: -o-linear-gradient(to right, rgba(0, 0, 0), rgba(255, 255, 255), rgba(0, 0, 0));
+	background-image: -moz-linear-gradient(to right, rgba(0, 0, 0), rgba(255, 255, 255), rgba(0, 0, 0));
+	background-image: linear-gradient(to right, rgba(0, 0, 0), rgba(255, 255, 255), rgba(0, 0, 0));
+}
+footer{
+	color: white;
+	padding-top: 30px;
+}
+#addhead{
+	text-align: center;
+}
+address{
+	text-align: center;
+}
+#follow{
+	text-align: center;
+}
+#social{
+	padding: 10px;
+}
+#copyright{
+	padding-top: 10px;
+	font-family: OpenSans,Arial,sans-serif;
+}
+
+
+/*----------------Responsive Design below-----------------*/
+
+
+@media screen and (max-width: 992px){
+	
+/*---------------Nav Bar--------------*/
+
+	label.logo{
+		display: none;
+	}
+	nav ul li a{
+		font-size: 20px;
+	}
+	.checkbtn{
+		display: block;
+	}
+	ul{
+		position: absolute;
+		width: 110%;
+		background: rgba(0, 0, 0, 0.8);
+		top: -170px;
+		left: 1.5%;
+		float: left;
+		transition: all .5s;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+		max-height: 200px;
+		z-index: 0;
+	}
+	li{
+		list-style: none;
+		min-height: 40px;
+		max-width: 200px;
+	}
+	li.a:hover{
+		text-decoration: none;
+		color: #007bff;
+	}
+	#check:checked ~ ul{
+		top: 10px;
+	}
+	nav{
+		z-index: 10;
+	}
+
+	/*---------------Bio-------------------*/
+	
+	#heading{
+		width: 60%;
+	}
+	.progress{
+		width: 300px;
+	}
+
+	/*------------------Footer--------------------*/
+
+
+	#follow{
+		padding-top: 15px;
+	}
+	#socialdiv{
+		padding-bottom: 10px;
+	}
+	#copyright{
+		padding-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	
+}
+
