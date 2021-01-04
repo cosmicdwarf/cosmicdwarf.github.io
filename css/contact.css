@@ -305,6 +305,9 @@ address{
 	#greetcont, #contcont{
 		font-size: 25px;
 	}
+	#greetcont{
+		padding-top: 70px;
+	}
 	#submitname{
 		margin-right: 30px;
 	}
