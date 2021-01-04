@@ -242,8 +242,8 @@ address{
 	}
 }
 
-@media screen and (max-width: 450px){
-	heading{
+@media screen and (max-width: 432px){
+	#heading{
 		padding-top: 70px;
 	}
 }
