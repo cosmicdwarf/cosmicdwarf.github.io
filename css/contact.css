@@ -315,9 +315,6 @@ address{
 		padding: 5px;
 
 	}
-	#firstname, #email, #phonelabel, #tndc, #messagearea{
-		margin-left: 15px;
-	}
 	#firstname, #lastname{
 		width: 160px;
 	}
