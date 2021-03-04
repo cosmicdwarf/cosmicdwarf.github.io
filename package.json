@@ -1,0 +1,22 @@
+{
+  "name": "cosmicdwarf",
+  "version": "1.0.0",
+  "description": "My official site",
+  "main": "index.js",
+  "scripts": {
+    "start":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmicdwarf/cosmicdwarf.github.io.git"
+  },
+  "author": "Ghritak Jyoti Kalita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cosmicdwarf/cosmicdwarf.github.io/issues"
+  },
+  "homepage": "https://github.com/cosmicdwarf/cosmicdwarf.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
