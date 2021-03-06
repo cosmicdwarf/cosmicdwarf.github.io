@@ -1,4 +1,4 @@
-### Hi there, I'm Ghritak 👋 - aka [cosmicdwarf][http://cosmicdwarf.github.io/]
+### Hi there, I'm Ghritak 👋 - aka [cosmicdwarf][website]
 
 ## I'm a B.Tech Undergrad, Full Stack Developer and Data Science enthusiast.
 
@@ -9,11 +9,11 @@
 
 ### Connect with me:
 
-[<img align="left" alt="Ghritak" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][http://cosmicdwarf.github.io/]
-[<img align="left" alt="Ghritak | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/facebook.svg" />][https://www.facebook.com/ghritak]
-[<img align="left" alt="Ghritak | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][https://twitter.com/ghritakjyoti]
-[<img align="left" alt="Ghritak | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][https://www.linkedin.com/in/ghritak-jyoti-kalita-a1915415a/]
-[<img align="left" alt="Ghritak | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][https://www.instagram.com/ghritak_]
+[<img align="left" alt="Ghritak" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
+[<img align="left" alt="Ghritak | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/facebook.svg" />][facebook]
+[<img align="left" alt="Ghritak | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="left" alt="Ghritak | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="Ghritak | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 <br />
 
@@ -80,8 +80,8 @@
 
 ---
 
-[website]: https://sabesansathananthan.now.sh
-[twitter]: https://twitter.com/TheSabesan
-[facebook]: https://www.facebook.com/sathananthan.sabesan
-[instagram]: https://www.instagram.com/s_sabesan
-[linkedin]: https://www.linkedin.com/in/sabesan96
+[website]: http://cosmicdwarf.github.io/
+[twitter]: https://twitter.com/ghritakjyoti
+[facebook]: https://www.facebook.com/ghritak
+[instagram]: https://www.instagram.com/ghritak__
+[linkedin]: https://www.linkedin.com/in/ghritak-jyoti-kalita-a1915415a/
