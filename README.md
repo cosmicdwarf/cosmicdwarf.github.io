@@ -13,7 +13,7 @@
 [<img align="left" alt="Ghritak | Facebook" width="22px" src="https://img.icons8.com/fluent/50/000000/facebook-new.png" />][facebook]
 [<img align="left" alt="Ghritak | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img align="left" alt="Ghritak | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="Ghritak | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+[<img align="left" alt="Ghritak | Instagram" width="22px" src="https://img.icons8.com/fluent/96/000000/instagram-new.png" />][instagram]
 
 <br />
 
