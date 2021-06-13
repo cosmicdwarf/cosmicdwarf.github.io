@@ -5,7 +5,7 @@
 - 🎓 I’m currently pursuing B.Tech in ECE at SOE, Tezpur University
 - 💻 Exploring various areas in Data Science
 - 📲 Looking to contribute more to Open Source projects
-- 🛹 Teaching myself how to skate at the age of 20 :)
+- 🛹 Teaching myself to skate at the age of 20 :)
 
 ### Connect with me:
 
